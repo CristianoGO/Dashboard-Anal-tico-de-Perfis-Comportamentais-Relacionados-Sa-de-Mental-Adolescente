@@ -15,7 +15,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-plt.style.use("dark_background")
+plt.style.use("default")
 sns.set_context("paper", font_scale=0.8)
 
 st.markdown(
@@ -23,7 +23,7 @@ st.markdown(
     <style>
 
     .main {
-        background-color: #ffffff;
+        background-color: #0f172a;
         color: #f1f5f9;
     }
 
