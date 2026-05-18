@@ -2,7 +2,7 @@
 
 Este projeto consiste em um dashboard analítico desenvolvido em Python utilizando Streamlit para visualização e análise de dados relacionados à saúde mental adolescente por meio de técnicas de clustering e análise comportamental.
 
-O dashboard foi desenvolvido como complemento da monografia de pós-graduação em Sistemas de Informação, permitindo explorar visualmente os resultados obtidos pelos algoritmos de agrupamento aplicados ao dataset (disponibilizado no Kaggle - Social Media Impact on Teen Mental Health).
+O dashboard foi desenvolvido como complemento da monografia de pós-graduação em Sistemas de Informação, permitindo explorar visualmente os resultados obtidos pelos algoritmos de agrupamento aplicados ao dataset público (disponibilizado no Kaggle - Social Media Impact on Teen Mental Health).
 
 ---
 
