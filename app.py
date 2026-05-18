@@ -1,13 +1,13 @@
-import streamlit as st  # type: ignore
-import pandas as pd  # type: ignore
-import numpy as np  # type: ignore
-import matplotlib.pyplot as plt  # type: ignore
-import seaborn as sns  # type: ignore
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
 
-from sklearn.preprocessing import StandardScaler  # type: ignore
-from sklearn.cluster import KMeans, AgglomerativeClustering  # type: ignore
-from sklearn.decomposition import PCA  # type: ignore
-from sklearn.metrics import silhouette_score  # type: ignore
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans, AgglomerativeClustering
+from sklearn.decomposition import PCA
+from sklearn.metrics import silhouette_score
 
 st.set_page_config(
     page_title="Dashboard - Saúde Mental Adolescente",
@@ -230,7 +230,7 @@ if uploaded_file is not None:
         if col in df_model.columns
     ]
 
-    correlation = df_model[available_columns].corr()  # type: ignore
+    correlation = df_model[available_columns].corr()
 
     fig4, ax4 = plt.subplots(figsize=(5, 4))
 
