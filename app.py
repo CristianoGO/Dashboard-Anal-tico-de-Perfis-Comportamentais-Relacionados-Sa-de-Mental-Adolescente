@@ -23,7 +23,7 @@ st.markdown(
     <style>
 
     .main {
-        background-color: #0f172a;
+        background-color: #ffffff;
         color: #f1f5f9;
     }
 
